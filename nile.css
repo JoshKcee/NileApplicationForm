@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-color: gainsboro;
+    /* font-family: raleway, Helveticaneue, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 0px;
+}
+#header {
+    background-color: #1f4da1;
+    width: 100%;
+    height: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.social{
+    float: left;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.social a{
+    color: white;
+    padding-right: 10px;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.nav {
+    float: right;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.pad {
+    padding-right: 10px;
+}
+.border {
+    border-right: 0.5px solid gainsboro;
+    padding-right: 5px;
+}
+#hero-container {
+    background-color: white;
+    height: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+#header-main {
+    display: flex;
+    background-color: white;
+    height: 80px;
+}
+#hero-container #header-main #a {
+    margin-right: 10px;
+    text-decoration: none;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13.5px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+#a a{
+    text-decoration: none;
+    color: #1f4da1;
+    padding-right: 10px;
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+.size {
+    font-size: 2px;
+    color: #1f4da1;
+}
+#slider {
+    width: 100%;
+    height: 404px;
+}
+#slider img{
+    width: 100%;
+    height: 100%;
+}
+.apply {
+    width: 100%;
+    background-color: #1f4da1;
+    color: white;
+    text-align: center;
+    height: 180px;
+    display: flex;
+    flex-direction:column ;
+    justify-items: center;
+    padding: 0px;
+}
+.apply .p{
+    font-family: serif,  Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+}
+.now {
+    font-family: inherit;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 3px solid white;
+    border-radius: 5%;
+    font-size: 12px;
+}
+.flex {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Apply now font: inherit */
